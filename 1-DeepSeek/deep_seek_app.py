@@ -19,7 +19,7 @@ st.markdown(
 
 # App sidebar setting
 st.sidebar.title("Setting")
-api_key = st.sidebar.text_input("Enter Groq API Key: ")
+api_key = st.sidebar.text_input("Enter Groq API Key: ", type="password")
 
 # Create prompt
 system_prompt = "You are a helpful assistant dedicated to answering all the user's queries."
