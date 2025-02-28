@@ -1,6 +1,9 @@
 ipykernel
 streamlit
+langchain
+langgraph
 python-dotenv
 langchain-core
 langchain-groq
+langchain-openai
 langchain-community
